@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.b1{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+#bt1{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit:cover;
+}

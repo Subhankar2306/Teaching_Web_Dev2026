@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+/* Section */
+.chef-section{
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Heading */
+.chef-section h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+/* Flex Container */
+.chef-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Chef Card */
+.chef-card{
+    width: 220px;
+    height: 280px;
+    background-color: #f5f0f0;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Image */
+.chef-card img{
+    width: 140px;
+    height: 170px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+/* Name */
+.chef-card h3{
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: cursive;
+}

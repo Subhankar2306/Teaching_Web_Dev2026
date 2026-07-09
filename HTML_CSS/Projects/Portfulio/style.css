@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    background:#aca5a5;
+}
+
+.header{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.menu{
+    padding:0;
+}
+
+.menu li{
+    display:inline-block;
+    margin:10px;
+}
+
+.menu a{
+    color:rgb(192, 49, 49);
+    text-decoration:none;
+}
+
+.about,
+.skills,
+.projects,
+.contact{
+    background:white;
+    border-radius: 10px;
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+}
+
+.about img{
+    display:block;
+    margin:auto;
+    border-radius:50%;
+    height: 150px;
+    width: 150px;
+}
+
+.skill{
+    display:inline-block;
+    background:#007BFF;
+    color:white;
+    padding:10px 20px;
+    margin:10px;
+    border-radius:5px;
+}
+
+.card{
+    display:inline-block;
+    width:250px;
+    background:#eee;
+    margin:10px;
+    padding:15px;
+    border:1px solid gray;
+    vertical-align:top;
+}
+
+button{
+    padding:10px 20px;
+}
+
+.footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}

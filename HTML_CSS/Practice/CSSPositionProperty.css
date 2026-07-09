@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  border: 1px solid black;
+  height: 700px;
+  margin: 10px;
+  background-color: rgb(218, 147, 55);
+}
+body{
+  position: relative;
+}
+/* .container{
+  position: relative;
+} */
+.img2{
+  /* position: relative;
+  top: 300px;
+  right: 200px; */
+}
+/* .img3{
+  position: absolute;
+  top: 0px;
+} */
+ .img4{
+  position: sticky;
+  top: 10px;
+ }
+ .img3{
+  position: fixed;
+  top: 500px;
+  left: 1000px;
+ }
+ .box{
+  background-color: aqua;
+ }

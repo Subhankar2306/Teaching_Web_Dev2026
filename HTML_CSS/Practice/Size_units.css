@@ -1,0 +1,10 @@
+.parent{
+  background-color: bisque;
+  border: 2px solid black;
+  width: 50%;
+}
+.child{
+  background-color:aqua;
+  border: 2px solid red;
+  width: 50%;
+}

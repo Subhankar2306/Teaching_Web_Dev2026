@@ -1,0 +1,38 @@
+.p1 {
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px;
+}
+.p2 {
+  background-image: url(https://www.w3schools.com/css/img_selector.gif);
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;  /* Its use for no repeatation of Backgroud Image.*/
+  /* background-repeat: repeat-y; */
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+.p3 {
+  background-color: brown;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box1{
+  width: 150px;
+  height: 150px;
+  /* background-color: aqua; */
+  background-image: url(image/download.webp);
+  border: 2px solid red;
+  background-size: cover;
+}
+.box2{
+  margin-top: 5px;
+  margin-left: 150px;
+  width: 150px;
+  height: 150px;
+  background-image: url(image/download.webp);
+  border: 2px solid red;
+  background-size: 200px 150px;
+
+}

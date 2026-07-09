@@ -1,0 +1,47 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Flag container */
+.flag {
+  width: 300px;
+  border: 1px solid black;
+}
+
+/* Top stripe */
+.saffron {
+  background-color: #ff9933;
+  height: 60px;
+}
+
+/* Middle stripe */
+.white {
+  background-color: white;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bottom stripe */
+.green {
+  background-color: #138808;
+  height: 60px;
+}
+
+/* Ashoka Chakra */
+/* .chakra {
+  width: 40px;
+  height: 40px;
+  border: 3px solid navy;
+  border-radius: 50%;
+} */
+.chakra {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+}

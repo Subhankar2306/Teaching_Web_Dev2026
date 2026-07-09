@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:white;
+}
+
+h1{
+    text-align:center;
+    margin:30px 0;
+}
+
+/* Flex Container */
+.contact{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+/* Left Side */
+.contact-info{
+    flex:1;
+}
+
+.contact-info p{
+    margin:20px 0;
+    font-size:18px;
+}
+
+.contact-info i{
+    margin-right:8px;
+}
+
+.contact-info h2{
+    margin-top:30px;
+}
+
+.social{
+    margin-top:20px;
+}
+
+.social i{
+    font-size:35px;
+    color:#ff00cc;
+    margin-right:15px;
+    cursor:pointer;
+}
+
+/* Right Side */
+.contact-form{
+    flex:1;
+    background:#ff00ff;
+    padding:20px;
+}
+
+.contact-form h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:none;
+    outline:none;
+}
+
+.contact-form button{
+    display:block;
+    margin:auto;
+    background:orange;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.contact-form button:hover{
+    background:darkorange;
+}
+
+/* Footer */
+footer{
+    margin-top:30px;
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+footer span{
+    color:orange;
+}

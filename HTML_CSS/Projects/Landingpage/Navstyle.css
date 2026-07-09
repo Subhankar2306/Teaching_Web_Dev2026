@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar */
+.navbar {
+  background-color: lightblue;
+  padding: 20px;
+}
+/* Logo */
+.logo {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 250px;
+}
+/* Navbar Links */
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+/* Hero Section */
+.hero {
+  height: 500px;
+
+  /* Background Color */
+  background-color: lightgray;
+
+  /* Background Image */
+  /*
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+    */
+
+  text-align: center;
+  padding-top: 150px;
+}
+
+/* Hero Heading */
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* Hero Paragraph */
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Button */
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

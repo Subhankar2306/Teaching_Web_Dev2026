@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #1e1e1e; /* dark background */
+  position: relative;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+}
+/* Individual colors + positions */
+
+.purple {
+  background: purple;
+  top: 50px;
+  left: 200px;
+}
+
+.brown {
+  background: brown;
+  top: 120px;
+  left: 400px;
+}
+
+.yellow {
+  background: yellowgreen;
+  top: 220px;
+  left: 550px;
+}
+
+.red {
+  background: red;
+  top: 300px;
+  left: 700px;
+}
+
+.white {
+  background: #ddd;
+  top: 380px;
+  left: 500px;
+}
+
+.blue {
+  background: royalblue;
+  top: 450px;
+  left: 350px;
+}
+
+.green {
+  background: green;
+  top: 520px;
+  left: 200px;
+}
