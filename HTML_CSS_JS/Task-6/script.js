@@ -1,7 +1,6 @@
 function showCapital(){
 
-    let country = document.getElementById("country").value;
+    let Country = document.getElementById("country").value;
 
-    document.getElementById("capital").value = country;
-
+    document.getElementById("capital").value = Country;
 }
