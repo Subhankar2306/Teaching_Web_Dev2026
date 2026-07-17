@@ -1,42 +1,29 @@
-function calculate(){
+function calculate() {
+  let num1 = Number(document.getElementById("num1").value);
+  let num2 = Number(document.getElementById("num2").value);
 
-    let num1 = Number(document.getElementById("num1").value);
-    let num2 = Number(document.getElementById("num2").value);
+  let operator = document.getElementById("operator").value;
 
-    let operator = document.getElementById("operator").value;
+  let result;
 
-    let result;
+  if (operator == "+") {
+    result = num1 + num2;
+  } else if (operator == "-") {
+    result = num1 - num2;
+  } else if (operator == "*") {
+    result = num1 * num2;
+  } else if (operator == "^") {
+    result = num1 ^ num2;
+  } else if (operator == "/") {
+    if (num2 == 0) {
+      document.getElementById("result").innerHTML =
+        "Division by zero is not possible.";
 
-    if(operator == "+"){
-
-        result = num1 + num2;
-
-    }
-    else if(operator == "-"){
-
-        result = num1 - num2;
-
-    }
-    else if(operator == "*"){
-
-        result = num1 * num2;
-
-    }
-    else if(operator == "/"){
-
-        if(num2 == 0){
-
-            document.getElementById("result").innerHTML =
-            "Division by zero is not possible.";
-
-            return;
-        }
-
-        result = num1 / num2;
-
+      return;
     }
 
-    document.getElementById("result").innerHTML =
-    "Result = " + result;
+    result = num1 / num2;
+  }
 
+  document.getElementById("result").innerHTML = "Result = " + result;
 }
