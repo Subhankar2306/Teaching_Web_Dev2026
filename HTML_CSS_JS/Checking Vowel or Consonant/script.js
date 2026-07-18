@@ -1,22 +1,22 @@
-function checkLetter(){
+// function checkLetter(){
 
-    let letter = document.getElementById("letter").value;
+//     let letter = document.getElementById("letter").value;
 
-    if(letter=="a" || letter=="e" || letter=="i" || letter=="o" || letter=="u" ||
-       letter=="A" || letter=="E" || letter=="I" || letter=="O" || letter=="U"){
+//     if(letter=="a" || letter=="e" || letter=="i" || letter=="o" || letter=="u" ||
+//        letter=="A" || letter=="E" || letter=="I" || letter=="O" || letter=="U"){
 
-        document.getElementById("result").innerHTML =
-        letter + " is a Vowel";
+//         document.getElementById("result").innerHTML =
+//         letter + " is a Vowel";
 
-    }
-    else{
+//     }
+//     else{
 
-        document.getElementById("result").innerHTML =
-        letter + " is a Consonant";
+//         document.getElementById("result").innerHTML =
+//         letter + " is a Consonant";
 
-    }
+//     }
 
-}
+// }
 
 // Optimised Virsion
 
